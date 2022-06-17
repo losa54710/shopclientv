@@ -50,7 +50,7 @@ export default {
             })
         },
         RegistrarCategoria( {commit},data){
-            axios.post('http://localhost:3030/api/categorias',data).then(response => {
+            axios.post(API_URL + `api/categorias`,data).then(response => {
                 commit('POST_CATEGORIA', response.status,data);
             }).catch((error) => {
                 console.log(error);
