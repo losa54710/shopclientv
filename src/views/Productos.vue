@@ -57,7 +57,7 @@
                       outlined
                       dense
                     ></v-select>
-                    <v-select
+                    <!-- <v-select
                       v-model="record.id_unidad"
                       :items="unidades"
                       item-text="nombre"
@@ -65,7 +65,7 @@
                       label="Unidad"
                       outlined
                       dense
-                    ></v-select>
+                    ></v-select> -->
                   </v-col>
                 </v-row>
                 <v-row>
