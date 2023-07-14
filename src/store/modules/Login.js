@@ -1,6 +1,6 @@
 import AuthService from '../../services/auth.service';
 import axios from 'axios';
-const API_URL = `https://shopback00.herokuapp.com/`;
+const API_URL = `https://https://shopback01.vercel.app/`;
 //const API_URL = `http://localhost:3030/`;
 const user = JSON.parse(localStorage.getItem('user'));
 const initialState = user ? { status: { loggedIn: true }, user } : { status: { loggedIn: false }, user: null };

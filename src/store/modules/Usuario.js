@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_URL = `https://https://shopback01.vercel.app//`;
+const API_URL = `https://https://shopback01.vercel.app/`;
 //const API_URL = `http://localhost:3030/`;
 export default {
     namespaced: true,
